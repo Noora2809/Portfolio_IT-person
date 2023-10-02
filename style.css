@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'IM Fell English', serif;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    padding-top: 20px;
+    background-color: rgba(22, 3, 10, 0.801);
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    position: sticky;
+    top: 0;
+    /* defines order of overlapping of html elts */
+    z-index: 1;
+}
+nav h2{
+    /* margin: 200px; */
+    padding: 0;
+    flex: 1;
+    font-size: xxx-large;
+    color: white;
+}
+
+nav ul{
+    display: flex;
+}
+nav img{
+    border-radius: 50%;
+    margin-left: 200px;
+}
+
+nav ul li a{
+    display: flex;
+    margin: 40px;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+nav ul li a:hover{
+    color: black;
+}
+
+.home{
+    background-color: black;
+}
+
+.home img{
+    width: 100%;
+    height: 50%;
+}
+.overlay{
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    color: white;
+    text-shadow: 2px 4px 8px rgb(171, 148, 121)
+    
+}
+
+.overlay .inner h2{
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 4px 5px 6px black;
+}
+
+
+
+.row {
+    height: 650px; 
+    width: 100%;
+    background-color: rgb(22, 9, 5);
+    display: flex;
+    justify-content: flex-start; 
+}
+
+.col {
+    height: 600px;
+    width: 50%;
+    padding: 50px;
+    /* background-color: black; */    
+}
+
+.col img{
+    height: 70%;
+    width: 70%;
+    border-radius: 50%;
+    transition: width 2s, height 2s, transform 2s;
+}
+.col img:hover{
+    transform: rotate(360deg);
+}
+
+
+.col1{
+    /* background-color: rgb(16, 5, 2); */
+    height: 600px;
+    width: 50%;
+    color: white;
+}
+
+.col1 h1{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+li{
+    
+    margin-bottom: 30px;
+}
+
+.col1 a{
+    color: white;
+    font-size: larger;
+}
+
+.col1 a:hover{
+    color: rgb(153, 150, 150);
+}
+
+.row1{
+    display: flex;
+    background-color: black;
+}
+
+.col2 {
+    width: 300px;
+    height: 400px;
+    margin: 40px;
+    border: 3px ridge black;
+    /* provide gradient color to content */
+    background: linear-gradient(to top, rgba(226, 221, 223, 0.801) 50%, white 50%);
+    /* for providing effect */
+    background-size: 100% 200%;
+    transition: all 0.8s;
+}
+
+.col2:hover {
+    /* for effect */
+    background-position: bottom;
+    border: none;
+    box-shadow: 3px 4px 5px 2px black;
+    transform: scale(1.05) rotate(5deg); /* Scale up by 5% and rotate by 5 degrees on hover */
+}
+.col2 h4{
+    text-align: center;
+    color: rgba(22, 3, 10, 0.801);
+}
+.col2 p{
+    text-align: justify;
+    margin: 10px;
+}
+
+.col2 img{
+    width: 100%;
+}
+h1{
+    border-top: 50px;
+    text-align: center;
+    border-bottom: 30px;
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+}
+.award{
+    background-color: black;
+    color: white;
+}
+.award ul li{
+    margin-left: 40px;
+}
+
+iframe{
+    margin-left: 70px;
+
+}
+
+form{
+    width: 500px;
+    margin-left: 35%;
+}
+
+.input{
+    display: flex;
+    width: 100%;
+}
+
+button{
+    padding-left: 45px;
+}
+
+.contact{
+    background-color: black;
+}
