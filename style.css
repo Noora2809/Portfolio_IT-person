@@ -197,3 +197,22 @@ button{
 .contact{
     background-color: black;
 }
+
+.reach{
+    background-color: black;
+}
+
+
+.reach .col iframe{
+    margin: 30px;
+    /* padding: 20px; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.reach .col h2{
+    color: white;
+    margin-left: 590px;
+    text-decoration: underline;
+}
